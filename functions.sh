@@ -9,9 +9,9 @@ echo "Enter Number2"
 read NUMBER2
 Validate() {
     if [ "$1" -lt "$2" ]; then
-        echo -e "$G .. $2 is greater $N"
+        echo -e "$G $2 is greatest $N"
     elif [ "$1" -gt "$2" ]; then
-        echo -e "$G .. $1 is greater $N"
+        echo -e "$G $1 is greatest $N"
     else
         echo -e "$Y Both are equal $N"
     fi
