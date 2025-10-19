@@ -1,5 +1,5 @@
 #!/bin/bash
-name="murthy
+name="murthy"
 age=33
 sex="Male"
 height=5.3
