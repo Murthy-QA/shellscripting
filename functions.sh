@@ -5,12 +5,11 @@ echo "Enter Number2"
 read Number2
 Validate() {
     if [ $1 -lt $2 ]; then
-        echo "$1 is greater than $2"
+        echo "$2 is greater"
     else
-        echo "$2 is greater than $1"
+        echo "$1 is greater"
     fi
 }
-Validate Number1 Number2
 
 Verify() {
     if [ $(($1 % $2)) -eq 0 ]; then
@@ -19,4 +18,5 @@ Verify() {
         echo "$1 is Odd"
     fi
 }
-Verify Number1 Number2
+Validate "$NUMBER1" "$NUMBER2"
+Verify "$NUMBER1"
