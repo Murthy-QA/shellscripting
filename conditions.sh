@@ -16,6 +16,6 @@ else
     echo "$NUMBER1 is Odd"
 fi
 
-if [$? -eq 0]; then
+if [ $? -eq 0 ]; then
     echo "Previous command executes success"
 fi
