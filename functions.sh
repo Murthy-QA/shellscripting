@@ -1,15 +1,19 @@
 #!/bin/bash
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
 echo "Enter Number1"
 read NUMBER1
 echo "Enter Number2"
 read NUMBER2
 Validate() {
     if [ "$1" -lt "$2" ]; then
-        echo "$2 is greater"
+        echo "$G .. $2 is greater $N"
     elif [ "$1" -gt "$2" ]; then
-        echo "$1 is greater"
+        echo "$G .. $1 is greater $N"
     else
-        echo "Both are equal"
+        echo "$Y Both are equal $N"
     fi
 }
 
@@ -21,7 +25,6 @@ Verify() {
     fi
 }
 
-# ✅ Pass actual values
 Validate "$NUMBER1" "$NUMBER2"
 Verify "$NUMBER1"
 Verify "$NUMBER2"
