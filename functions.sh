@@ -19,7 +19,7 @@ Validate() {
 
 Verify() {
     if [ $(($1 % 2)) -eq 0 ]; then
-        echo "$1 is Even" > output.log
+        echo "$1 is Even" > out.log
     else
         echo "$1 is Odd"
     fi
