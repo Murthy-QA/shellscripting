@@ -13,7 +13,7 @@ fi
 if [ $((NUMBER1 % 2)) -eq 0 ]; then
     echo "$NUMBER1 is Even"
 else
-    echo "$NUMBER1 is Odd"
+    echo "$NUMBER1 is Odd
 fi
 
 if [ $? -eq 0 ]; then
