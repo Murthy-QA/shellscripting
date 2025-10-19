@@ -10,3 +10,8 @@ else
     echo "$NUMBER1 is greater than $NUMBER2"
 fi
 
+if [ $($NUMBER1/$NUMBER2) -eq 0 ]; then
+    echo "$NUMBER1 is Even"
+else
+    echo "$NUMBER1 is Odd"
+fi
