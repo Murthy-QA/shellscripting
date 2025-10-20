@@ -16,6 +16,6 @@ done
 for i in {1..5}; do
     echo "I value is:$i"
     if [ $i -eq 3 ]; then 
-        break;
+        continue;
     fi
 done
