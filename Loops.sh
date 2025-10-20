@@ -8,7 +8,7 @@ for i in {1..10}; do
     echo "Numbers from 1 to 10:$i"
 done
 
-while [ $count -le 3 ]; do
+while [ $count -le 15 ]; do
     echo "Count is:$count"
     ((count++))
 done
