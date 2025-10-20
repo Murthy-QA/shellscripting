@@ -15,7 +15,7 @@ done
 
 for i in {1..5}; do
     echo "I value is:$i"
-    if [ $i -eq 3 ]; then 
+    if [ $i -eq 10 ]; then 
         continue;
     fi
 done
