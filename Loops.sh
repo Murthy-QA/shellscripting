@@ -12,3 +12,9 @@ while [ $count -le 15 ]; do
     echo "Count is:$count"
     ((count++))
 done
+
+for i in {1..5}; do
+    if [ $i -eq 3 ]; then 
+        break;
+    fi
+done
